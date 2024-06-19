@@ -6,7 +6,8 @@
   "author": "renzocabarios <renzo.cabarios@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "generate_wallet": "ts-node generate_wallet.ts"
+    "generate_wallet": "ts-node generate_wallet.ts",
+    "upload_irys": "ts-node upload_irys.ts"
   },
   "dependencies": {
     "@irys/sdk": "^0.2.4",
