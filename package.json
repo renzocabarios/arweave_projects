@@ -5,7 +5,12 @@
   "repository": "https://github.com/renzocabarios/arweave_projects.git",
   "author": "renzocabarios <renzo.cabarios@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "generate_wallet": "ts-node generate_wallet.ts"
+  },
   "dependencies": {
+    "@irys/sdk": "^0.2.4",
+    "arweave": "^1.15.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
