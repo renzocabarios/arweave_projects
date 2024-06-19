@@ -1,0 +1,12 @@
+{
+  "name": "arweave_projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/renzocabarios/arweave_projects.git",
+  "author": "renzocabarios <renzo.cabarios@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
