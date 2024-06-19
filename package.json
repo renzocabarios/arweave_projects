@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "@irys/sdk": "^0.2.4",
+    "@permaweb/aos": "https://get_ao.g8way.io",
     "arweave": "^1.15.1",
+    "global": "^4.4.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
