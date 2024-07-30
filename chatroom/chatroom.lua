@@ -10,6 +10,7 @@ Handlers.add("Broadcast", Handlers.utils.hasMatchingTag("Action", "Broadcast"), 
 		print("UNAUTH REQ: " .. m.From)
 		return
 	end
+
 	local type = m.Type or "Normal"
 	print("Broadcasting message from " .. m.From .. ". Content: " .. m.Data)
 	for i = 1, #Members, 1 do
